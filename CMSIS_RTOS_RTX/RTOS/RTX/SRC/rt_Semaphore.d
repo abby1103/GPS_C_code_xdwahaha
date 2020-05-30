@@ -1,0 +1,15 @@
+rt_Semaphore.o: rt_Semaphore.c
+rt_Semaphore.o: rt_TypeDef.h
+rt_Semaphore.o: RTX_Config.h
+rt_Semaphore.o: rt_System.h
+rt_Semaphore.o: rt_List.h
+rt_Semaphore.o: rt_Task.h
+rt_Semaphore.o: rt_Semaphore.h
+rt_Semaphore.o: rt_HAL_CA.h
+rt_Semaphore.o: ../../../Include/core_ca9.h
+rt_Semaphore.o: C:\altera\16.0\embedded\ds-5\sw\ARMCompiler5.06u1\bin\..\include\stdint.h
+rt_Semaphore.o: ../../../Include/core_caInstr.h
+rt_Semaphore.o: ../../../Include/core_cmInstr.h
+rt_Semaphore.o: ../../../Include/core_caFunc.h
+rt_Semaphore.o: ../../../Include/core_ca_mmu.h
+rt_Semaphore.o: ../../../Include/core_cm4_simd.h

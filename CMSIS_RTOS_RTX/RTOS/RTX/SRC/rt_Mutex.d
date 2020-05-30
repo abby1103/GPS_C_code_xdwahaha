@@ -1,0 +1,14 @@
+rt_Mutex.o: rt_Mutex.c
+rt_Mutex.o: rt_TypeDef.h
+rt_Mutex.o: RTX_Config.h
+rt_Mutex.o: rt_List.h
+rt_Mutex.o: rt_Task.h
+rt_Mutex.o: rt_Mutex.h
+rt_Mutex.o: rt_HAL_CA.h
+rt_Mutex.o: ../../../Include/core_ca9.h
+rt_Mutex.o: C:\altera\16.0\embedded\ds-5\sw\ARMCompiler5.06u1\bin\..\include\stdint.h
+rt_Mutex.o: ../../../Include/core_caInstr.h
+rt_Mutex.o: ../../../Include/core_cmInstr.h
+rt_Mutex.o: ../../../Include/core_caFunc.h
+rt_Mutex.o: ../../../Include/core_ca_mmu.h
+rt_Mutex.o: ../../../Include/core_cm4_simd.h

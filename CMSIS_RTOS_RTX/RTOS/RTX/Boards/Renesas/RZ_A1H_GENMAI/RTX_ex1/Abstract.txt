@@ -1,0 +1,6 @@
+This example program uses RTX Kernel to control 2 threads and
+to pass signals between the threads. The threads in this program do
+nothing. This example is documented in the RTX documentation
+under: Your First RTX Application.
+
+

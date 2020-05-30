@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.arm.debugger.launcher2">
+<stringAttribute key="ANDROID_ACTIVITY_NAME" value=""/>
+<stringAttribute key="ANDROID_APPLICATION" value=""/>
+<stringAttribute key="ANDROID_APP_DIR" value=""/>
+<stringAttribute key="ANDROID_PROCESS_NAME" value=""/>
+<intAttribute key="DEBUG_TAB..RESOURCES.COUNT" value="0"/>
+<intAttribute key="FILES.CONNECT_TO_GDB_SERVER.RESOURCES.COUNT" value="0"/>
+<intAttribute key="FILES.DEBUG_EXISTING_ANDROID.RESOURCES.COUNT" value="0"/>
+<listAttribute key="FILES.DEBUG_RESIDENT_ANDROID"/>
+<stringAttribute key="FILES.DEBUG_RESIDENT_ANDROID.RESOURCES.0.TYPE" value="TARGET_WORKING_DIR"/>
+<stringAttribute key="FILES.DEBUG_RESIDENT_ANDROID.RESOURCES.0.VALUE" value=""/>
+<intAttribute key="FILES.DEBUG_RESIDENT_ANDROID.RESOURCES.COUNT" value="1"/>
+<listAttribute key="FILES.DEBUG_RESIDENT_APP"/>
+<stringAttribute key="FILES.DEBUG_RESIDENT_APP.RESOURCES.0.TYPE" value="APPLICATION_ON_TARGET"/>
+<stringAttribute key="FILES.DEBUG_RESIDENT_APP.RESOURCES.0.VALUE" value=""/>
+<stringAttribute key="FILES.DEBUG_RESIDENT_APP.RESOURCES.1.TYPE" value="TARGET_WORKING_DIR"/>
+<stringAttribute key="FILES.DEBUG_RESIDENT_APP.RESOURCES.1.VALUE" value=""/>
+<intAttribute key="FILES.DEBUG_RESIDENT_APP.RESOURCES.COUNT" value="2"/>
+<listAttribute key="FILES.DOWNLOAD_AND_DEBUG"/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.0.OPTION.ALSO_LOAD_SYMBOLS" value="true"/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.0.OPTION.ON_DEMAND_LOAD" value="true"/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.0.TYPE" value="APP_ON_HOST_TO_DOWNLOAD"/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.0.VALUE" value=""/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.1.OPTION.ALSO_LOAD_SYMBOLS" value="true"/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.1.OPTION.ON_DEMAND_LOAD" value="true"/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.1.TYPE" value="TARGET_DOWNLOAD_DIR"/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.1.VALUE" value=""/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.2.OPTION.ALSO_LOAD_SYMBOLS" value="true"/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.2.OPTION.ON_DEMAND_LOAD" value="true"/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.2.TYPE" value="TARGET_WORKING_DIR"/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.2.VALUE" value=""/>
+<intAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.COUNT" value="3"/>
+<listAttribute key="FILES.DOWNLOAD_DEBUG"/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.0.OPTION.ALSO_LOAD_SYMBOLS" value="true"/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.0.OPTION.ON_DEMAND_LOAD" value="true"/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.0.TYPE" value="APP_ON_HOST_TO_DOWNLOAD"/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.0.VALUE" value=""/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.1.OPTION.ALSO_LOAD_SYMBOLS" value="true"/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.1.OPTION.ON_DEMAND_LOAD" value="true"/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.1.TYPE" value="TARGET_DOWNLOAD_DIR"/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.1.VALUE" value=""/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.2.OPTION.ALSO_LOAD_SYMBOLS" value="true"/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.2.OPTION.ON_DEMAND_LOAD" value="true"/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.2.TYPE" value="TARGET_WORKING_DIR"/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.2.VALUE" value=""/>
+<intAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.COUNT" value="3"/>
+<intAttribute key="FILES.DOWNLOAD_DEBUG_ANDROID.RESOURCES.COUNT" value="0"/>
+<listAttribute key="FILES.ICE_DEBUG">
+<listEntry value="ON_DEMAND_LOAD"/>
+<listEntry value="ALSO_LOAD_SYMBOLS"/>
+</listAttribute>
+<stringAttribute key="FILES.ICE_DEBUG.RESOURCES.0.OPTION.ALSO_LOAD_SYMBOLS" value="true"/>
+<stringAttribute key="FILES.ICE_DEBUG.RESOURCES.0.OPTION.ON_DEMAND_LOAD" value="true"/>
+<stringAttribute key="FILES.ICE_DEBUG.RESOURCES.0.TYPE" value="APP_ON_HOST_TO_DOWNLOAD"/>
+<stringAttribute key="FILES.ICE_DEBUG.RESOURCES.0.VALUE" value="${workspace_loc:/RTX_ARM_FVP_RTX_ex2/RTX_ARM_FVP_RTX_ex2.axf}"/>
+<intAttribute key="FILES.ICE_DEBUG.RESOURCES.COUNT" value="1"/>
+<listAttribute key="FILES.ICE_DEBUG_WITH_ETB_TRACE">
+<listEntry value="ON_DEMAND_LOAD"/>
+<listEntry value="ALSO_LOAD_SYMBOLS"/>
+</listAttribute>
+<stringAttribute key="FILES.ICE_DEBUG_WITH_ETB_TRACE.RESOURCES.0.OPTION.ALSO_LOAD_SYMBOLS" value="true"/>
+<stringAttribute key="FILES.ICE_DEBUG_WITH_ETB_TRACE.RESOURCES.0.OPTION.ON_DEMAND_LOAD" value="true"/>
+<stringAttribute key="FILES.ICE_DEBUG_WITH_ETB_TRACE.RESOURCES.0.TYPE" value="APP_ON_HOST_TO_DOWNLOAD"/>
+<stringAttribute key="FILES.ICE_DEBUG_WITH_ETB_TRACE.RESOURCES.0.VALUE" value=""/>
+<intAttribute key="FILES.ICE_DEBUG_WITH_ETB_TRACE.RESOURCES.COUNT" value="1"/>
+<listAttribute key="FILES.ICE_DEBUG_WITH_TRACE">
+<listEntry value="ON_DEMAND_LOAD"/>
+<listEntry value="ALSO_LOAD_SYMBOLS"/>
+</listAttribute>
+<stringAttribute key="FILES.ICE_DEBUG_WITH_TRACE.RESOURCES.0.OPTION.ALSO_LOAD_SYMBOLS" value="true"/>
+<stringAttribute key="FILES.ICE_DEBUG_WITH_TRACE.RESOURCES.0.OPTION.ON_DEMAND_LOAD" value="true"/>
+<stringAttribute key="FILES.ICE_DEBUG_WITH_TRACE.RESOURCES.0.TYPE" value="APP_ON_HOST_TO_DOWNLOAD"/>
+<stringAttribute key="FILES.ICE_DEBUG_WITH_TRACE.RESOURCES.0.VALUE" value=""/>
+<intAttribute key="FILES.ICE_DEBUG_WITH_TRACE.RESOURCES.COUNT" value="1"/>
+<stringAttribute key="FILES.SELECTED_DEBUG_OPEATION" value="ICE_DEBUG"/>
+<stringAttribute key="HOST_WORKING_DIR" value="${workspace_loc}"/>
+<booleanAttribute key="HOST_WORKING_DIR_USE_DEFAULT" value="true"/>
+<booleanAttribute key="KEY_COMMANDS_AFTER_CONNECT" value="false"/>
+<stringAttribute key="KEY_COMMANDS_AFTER_CONNECT_TEXT" value=""/>
+<booleanAttribute key="RSE_USE_HOSTNAME" value="true"/>
+<stringAttribute key="TCP_DISABLE_EXTENDED_MODE" value="true"/>
+<booleanAttribute key="TCP_KILL_ON_EXIT" value="false"/>
+<listAttribute key="TREE_NODE_PROPERTIES:debugger.view.VariableTreeView">
+<listEntry value="NODE CACHE VERSION 1"/>
+<listEntry value="VALUE:C:/Users/me249/Desktop/dean/proj/de0_dual_antenna_a0/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/tracking.c::CH"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:C:/Users/me249/Desktop/dean/proj/de0_dual_antenna_a0/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/tracking.c::CH[1]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:C:/Users/me249/Desktop/dean/proj/de0_dual_antenna_a2/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/tracking.c::CH[1]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:C:/Users/me249/Desktop/dean/proj/de0_dual_antenna_a2/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/tracking.c::CH[2]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:C:/Users/me249/Desktop/dean/proj/de0_dual_antenna_a2/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/tracking.c::CH[3]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/dual_attena_20190110/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/message.c::messages[4].subframes[0]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/dual_attena_20190110/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/message.c::messages[4].subframes[1]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/dual_attena_20190110/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/tracking.c::CH[6]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/dual_attena_20190110/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/tracking.c::CH[7]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/dual_attena_20190110/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/tracking.c::CH[9]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/dual_attena_20190110/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/message.c::messages[4]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/dual_attena_20190110/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/message.c::messages[8]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="ELEMENT_GROUP:E:/correlation_de1_yao/dual_attena_20190110/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/uart_putstring.c::define_size.[0...99]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="ELEMENT_GROUP:E:/correlation_de1_yao/dual_attena_20190110/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/uart_NMEA.c::gsa_buf.string.[0...99]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="ELEMENT_GROUP:E:/correlation_de1_yao/dual_attena_20190110/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/uart_NMEA.c::rmc_buf.string.[0...99]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/dual_attena_20190110/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/uart_NMEA.c::gga_buf"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/dual_attena_20190110/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/uart_NMEA.c::gsa_buf"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/dual_attena_20190110/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/RTX_ex2.c::message_thread_id"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/dual_attena_20190110/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/uart_NMEA.c::rmc_buf"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/dual_attena_20190110/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/RTX_ex2.c::uart_thread_id"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/dual_attena_20190110/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/uart_NMEA.c::vtg_buf"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/dual_attena_20190327/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/tracking.c::d_data[0]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/dual_attena_20190327/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/tracking.c::d_data[900]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="ELEMENT_GROUP:E:/correlation_de1_yao/dual_attena_20190327/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/tracking.c::d_data.[10900...10999]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="ELEMENT_GROUP:E:/correlation_de1_yao/dual_attena_20190327/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/tracking.c::d_data.[10000...10099]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/dual_attena_20190327/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/tracking.c::d_data[10000]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/dual_attena_20190327/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/tracking.c::d_data[10900]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/dual_attena_20190327/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/tracking.c::d_data[9900]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/dual_attena_20190327/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/tracking.c::d_data[8600]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="ELEMENT_GROUP:E:/correlation_de1_yao/dual_attena_20190327/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/tracking.c::d_data.[8600...8699]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="ELEMENT_GROUP:E:/correlation_de1_yao/dual_attena_20190327/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/tracking.c::d_data.[0...9999]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/dual_attena_20190327/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/tracking.c::CH[12]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/dual_attena_20190327/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/tracking.c::CH[13]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/triple_anttena_20190923/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/tracking.c::d_data[66402]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/triple_anttena_20190923/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/tracking.c::d_data[66403]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/triple_anttena_20190923/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/tracking.c::d_data[66404]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/triple_anttena_20190923/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/tracking.c::d_data[66485]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/triple_anttena_20190923/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/tracking.c::d_data[75500]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/triple_anttena_20190923/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/tracking.c::d_data[75501]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/triple_anttena_20190923/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/tracking.c::d_data[75591]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/triple_anttena_20190923/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/tracking.c::d_data[84773]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="ELEMENT_GROUP:E:/correlation_de1_yao/triple_anttena_20190923/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/tracking.c::d_data.[66400...66499]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="ELEMENT_GROUP:E:/correlation_de1_yao/triple_anttena_20190923/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/tracking.c::d_data.[75500...75599]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="ELEMENT_GROUP:E:/correlation_de1_yao/triple_anttena_20190923/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/tracking.c::d_data.[84700...84799]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="ELEMENT_GROUP:E:/correlation_de1_yao/triple_anttena_20190923/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/tracking.c::d_data.[50000...59999]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="ELEMENT_GROUP:E:/correlation_de1_yao/triple_anttena_20190923/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/tracking.c::d_data.[51900...51999]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/triple_anttena_20190923/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/tracking.c::CH"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/triple_anttena_20190923/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/tracking.c::d_data"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/triple_anttena_20190923/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/tracking.c::CH[0]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/triple_anttena_20190923/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/tracking.c::CH[18]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/triple_anttena_20190923/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/tracking.c::CH[19]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/triple_anttena_20190923/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/tracking.c::d_data[51919]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/ddcp_attitude.c::attitude_thread::$0::P_sat[0]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/ddcp_attitude.c::attitude_thread::$0::P_sat[2]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/ddcp_attitude.c::attitude_thread::$0::P_sat[3]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/ddcp_attitude.c::attitude_thread::$0::P_sat[4]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/ddcp_attitude.c::attitude_thread::$0::P_sat[5]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/ambiguity_resolution.c::ddcp_model::ant1_ptr"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/ambiguity_resolution.c::ddcp_model::LOS"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/ambiguity_resolution.c::ddcp_model::ant1_ptr-&gt;b_body"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/ambiguity_resolution.c::ddcp_model::ant1_ptr-&gt;S"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/attitude_sol.c::attitude_sol::cand_b1b2[0]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/attitude_sol.c::attitude_sol::cand_b1b2-&gt;Ncands"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/attitude_sol.c::attitude_sol::cand_b1b2-&gt;bcands"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/attitude_sol.c::attitude_sol::cand_b1b2-&gt;goodness"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/attitude_sol.c::attitude_sol::ant1_ptr[0]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/attitude_sol.c::attitude_sol::ant1_ptr[1]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/attitude_sol.c::attitude_sol::ant1_ptr[2]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/attitude_sol.c::attitude_sol::ant1_ptr[3]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/attitude_sol.c::attitude_sol::ant1_ptr-&gt;S"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/attitude_sol.c::attitude_sol::ant1_ptr[2].S"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/attitude_sol.c::attitude_sol::ant1_ptr[3].S"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/ambiguity_resolution.c::GSO::cand_b"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/ambiguity_resolution.c::GSO::n2_tem"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/ambiguity_resolution.c::GSO::cand_b-&gt;bcands"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/ambiguity_resolution.c::GSO::cand_b-&gt;goodness"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/ambiguity_resolution.c::search_moreN::cand_b_pre.Ncands"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/ambiguity_resolution.c::search_moreN::cand_b_pre.bcands"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/ambiguity_resolution.c::search_moreN::cand_b_pre.goodness"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/ambiguity_resolution.c::search_moreN::cand_b_new"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/ambiguity_resolution.c::search_moreN::cand_b_new-&gt;Ncands"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/ambiguity_resolution.c::search_moreN::cand_b_new-&gt;bcands"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/ambiguity_resolution.c::search_moreN::cand_b_new-&gt;goodness"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/ambiguity_resolution.c::b1_NRange::ant1_ptr"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/ambiguity_resolution.c::b1_NRange::old_an"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/ambiguity_resolution.c::b1_NRange::small_an"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/attitude_sol.c::attitude_sol::cand_b1"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/attitude_sol.c::attitude_sol::cand_b2_paired"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/attitude_sol.c::attitude_sol::cand_b1[0]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/attitude_sol.c::attitude_sol::cand_b1[1]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/attitude_sol.c::attitude_sol::cand_b1[1].Ncands"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/attitude_sol.c::attitude_sol::cand_b1[1].bcands"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/attitude_sol.c::attitude_sol::cand_b1[1].goodness"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/attitude_sol.c::attitude_sol::cand_b2_paired[0]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/attitude_sol.c::attitude_sol::cand_b2_paired-&gt;Ncands"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/attitude_sol.c::attitude_sol::cand_b2_paired-&gt;bcands"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/attitude_sol.c::attitude_sol::cand_b2_paired-&gt;goodness"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/ddcp_attitude.c::attitude_thread::$0::angle"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="SORTED_GROUP:CH...sat_vel_by_ch"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/pseudorange.c::pr"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/position.c::receiver_pvt"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/position.c::sat_position"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/pseudorange.c::pr[15]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/pseudorange.c::pr[18]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/position.c::sat_position[0]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="GLOBALS:Globals"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/ddcp_attitude.c::attitude_thread::old_an"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/ddcp_attitude.c::attitude_thread::angle"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+</listAttribute>
+<booleanAttribute key="VFS_ENABLED" value="true"/>
+<stringAttribute key="VFS_LOCAL_DIR" value="${workspace_loc}"/>
+<stringAttribute key="VFS_REMOTE_MOUNT" value="/writeable"/>
+<stringAttribute key="breakpoints" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;breakpoints order=&quot;ALPHA&quot;&gt;&#10;&#9;&lt;breakpoint ignorecount=&quot;0&quot; ignorecountstart=&quot;0&quot; threadenabled=&quot;no&quot; list_all_threads=&quot;no&quot; core_list=&quot;{}&quot; continue=&quot;no&quot; verboseBreakpoints=&quot;yes&quot; kind=&quot;FUNCTION&quot;&gt;&#10;&#9;&#9;&lt;master_location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;S:0xFFFF131C&quot; function=&quot;spl_boot_device&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;S:0xFFFF131C&quot; function=&quot;spl_boot_device&quot;/&gt;&#10;&#9;&lt;/breakpoint&gt;&#10;&#9;&lt;breakpoint ignorecount=&quot;0&quot; ignorecountstart=&quot;0&quot; threadenabled=&quot;no&quot; list_all_threads=&quot;no&quot; core_list=&quot;{}&quot; continue=&quot;no&quot; verboseBreakpoints=&quot;yes&quot; kind=&quot;SOURCEPOSITION&quot;&gt;&#10;&#9;&#9;&lt;master_location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; hostFile=&quot;E:\correlation_de1_yao\de0_original_20180605\GPS_C_code_xdwahaha\CMSIS_RTOS_RTX\RTOS\RTX\SRC\rt_CMSIS.c&quot; line=&quot;708&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; hostFile=&quot;E:\correlation_de1_yao\de0_original_20180605\GPS_C_code_xdwahaha\CMSIS_RTOS_RTX\RTOS\RTX\SRC\rt_CMSIS.c&quot; line=&quot;708&quot;/&gt;&#10;&#9;&lt;/breakpoint&gt;&#10;&#9;&lt;breakpoint ignorecount=&quot;0&quot; ignorecountstart=&quot;0&quot; threadenabled=&quot;no&quot; list_all_threads=&quot;no&quot; core_list=&quot;{}&quot; continue=&quot;no&quot; verboseBreakpoints=&quot;yes&quot; kind=&quot;SOURCEPOSITION&quot;&gt;&#10;&#9;&#9;&lt;master_location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; hostFile=&quot;E:\correlation_de1_yao\de0_triple_DDCP_20191204\de0_dual_antenna\GPS_C_code_xdwahaha\RTX_ARM_FVP_RTX_ex2\ddcp_attitude.c&quot; line=&quot;126&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;S:0x000052AA&quot; debugFile=&quot;E:/correlation_de1_yao/de0_triple_DDCP_20191204/de0_dual_antenna/GPS_C_code_xdwahaha/RTX_ARM_FVP_RTX_ex2/ddcp_attitude.c&quot; hostFile=&quot;E:\correlation_de1_yao\de0_triple_DDCP_20191204\de0_dual_antenna\GPS_C_code_xdwahaha\RTX_ARM_FVP_RTX_ex2\ddcp_attitude.c&quot; line=&quot;126&quot;/&gt;&#10;&#9;&lt;/breakpoint&gt;&#10;&lt;/breakpoints&gt;&#10;"/>
+<listAttribute key="com.arm.debugger.views.common.AddressTracker.debugger.view.DisassemblyView.addresses">
+<listEntry value="&lt;Next Instruction&gt;"/>
+</listAttribute>
+<listAttribute key="com.arm.debugger.views.common.AddressTracker.debugger.view.DisassemblyView.ranges">
+<listEntry value="100"/>
+</listAttribute>
+<listAttribute key="com.arm.debugger.views.common.AddressTracker.debugger.view.MemoryView.addresses">
+<listEntry value="0x100dd80"/>
+<listEntry value="0x100E128"/>
+<listEntry value="0X100E128"/>
+<listEntry value="0x20000000"/>
+<listEntry value="&amp;(&quot;tracking.c&quot;::d_data)"/>
+<listEntry value="0x00AB7A60"/>
+<listEntry value="0x00AB7868"/>
+<listEntry value="0x00AB7670"/>
+<listEntry value="0x00AB7478"/>
+</listAttribute>
+<listAttribute key="com.arm.debugger.views.common.AddressTracker.debugger.view.MemoryView.ranges">
+<listEntry value="1024"/>
+<listEntry value="1024"/>
+<listEntry value="1024"/>
+<listEntry value="1024"/>
+<listEntry value="sizeof(&quot;tracking.c&quot;::d_data)"/>
+<listEntry value="1024"/>
+<listEntry value="1024"/>
+<listEntry value="1024"/>
+<listEntry value="1024"/>
+</listAttribute>
+<stringAttribute key="config_db_activity_name" value="Debug Cortex-A9_0"/>
+<stringAttribute key="config_db_connection_keys" value="eventviewer_tracesource target_initialization_script dtsl_tracecapture_option dtsl_config rvi_address config_file dtsl_config_script setup TCP_KILL_ON_EXIT TCP_DISABLE_EXTENDED_MODE"/>
+<stringAttribute key="config_db_connection_type" value="Bare Metal Debug"/>
+<stringAttribute key="config_db_platform_name" value="Altera - Cyclone V SoC (Dual Core)"/>
+<stringAttribute key="config_db_project_type" value="Bare Metal Debug"/>
+<stringAttribute key="config_db_project_type_id" value="BARE_METAL"/>
+<stringAttribute key="config_db_taxonomy_id" value="/platform/altera/cyclonevsoc_dualcore_"/>
+<stringAttribute key="config_file" value="CDB://Altera_DEV5XS1.rvc"/>
+<booleanAttribute key="connectOnly" value="false"/>
+<stringAttribute key="connection_type" value="USB-Blaster"/>
+<listAttribute key="debugger.view.DisassemblyView:current">
+<listEntry value="&lt;Next Instruction&gt;"/>
+<listEntry value="100"/>
+</listAttribute>
+<stringAttribute key="debugger.view.MemoryView" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;page&gt;&#10;&#9;&lt;memoryView displayWidthTag=&quot;BYTE_4&quot; autoAlign=&quot;false&quot; showTooltipTag=&quot;true&quot; mCompressedAddresses=&quot;true&quot; formatTag=&quot;Hexadecimal&quot;/&gt;&#10;&lt;/page&gt;&#10;"/>
+<listAttribute key="debugger.view.MemoryView:current">
+<listEntry value="0x100dd80"/>
+<listEntry value="1024"/>
+</listAttribute>
+<stringAttribute key="debugger.view.ModulesView:DebugOutlineColumnState" value="OutlineConfig1&#9;0"/>
+<stringAttribute key="debugger.view.NewRegisterView:DebugOutlineColumnState" value="OutlineConfig1&#9;0"/>
+<stringAttribute key="debugger.view.VariableTreeView:DebugOutlineColumnState" value="OutlineConfig1&#9;0"/>
+<stringAttribute key="debugger.view.symbols.FunctionsView:DebugOutlineColumnState" value="OutlineConfig1&#9;0"/>
+<stringAttribute key="ds5_launch_configuration_version" value="5.20.0"/>
+<stringAttribute key="dtsl_config" value="USBBlaster_DtslScript"/>
+<stringAttribute key="dtsl_config_script" value="CDB://dtsl_config_script.py"/>
+<stringAttribute key="dtsl_options_file" value="default"/>
+<stringAttribute key="dtsl_tracecapture_option" value="options.traceBuffer.traceCapture"/>
+<stringAttribute key="eventviewer_tracesource" value="STM"/>
+<booleanAttribute key="linuxOS" value="false"/>
+<stringAttribute key="rddi_type" value="rddi-debug-rvi"/>
+<booleanAttribute key="runAfterConnect" value="false"/>
+<stringAttribute key="runTargetInitializationScript" value="E:\correlation_de1_yao\dual_attena_20190327\de0_dual_antenna\Demonstrations\SoC_FPGA\DE0_NANO_SOC_GHRD\software\spl_bsp\preloader.ds"/>
+<stringAttribute key="rvi_address" value="DE-SoC on localhost [USB-1]:DE-SoC USB-1"/>
+<listAttribute key="setup">
+<listEntry value="CDB://debug_server.py"/>
+<listEntry value="CDB://rddi-dap_cfg-altera.txt rddi-dap_altera"/>
+</listAttribute>
+<stringAttribute key="stopAtExpression" value="main"/>
+<stringAttribute key="target_initialization_script" value="CDB://../../../Scripts/altera_target_check.py"/>
+<stringAttribute key="watchpoints" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;watchpoints&gt;&#10;&lt;/watchpoints&gt;&#10;"/>
+</launchConfiguration>

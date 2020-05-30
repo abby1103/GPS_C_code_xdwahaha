@@ -1,0 +1,16 @@
+rt_Task.o: rt_Task.c
+rt_Task.o: rt_TypeDef.h
+rt_Task.o: RTX_Config.h
+rt_Task.o: rt_System.h
+rt_Task.o: rt_Task.h
+rt_Task.o: rt_List.h
+rt_Task.o: rt_MemBox.h
+rt_Task.o: rt_Robin.h
+rt_Task.o: rt_HAL_CA.h
+rt_Task.o: ../../../Include/core_ca9.h
+rt_Task.o: C:\altera\16.0\embedded\ds-5\sw\ARMCompiler5.06u1\bin\..\include\stdint.h
+rt_Task.o: ../../../Include/core_caInstr.h
+rt_Task.o: ../../../Include/core_cmInstr.h
+rt_Task.o: ../../../Include/core_caFunc.h
+rt_Task.o: ../../../Include/core_ca_mmu.h
+rt_Task.o: ../../../Include/core_cm4_simd.h

@@ -1,0 +1,15 @@
+ARM/HAL_CA9.o: ARM/HAL_CA9.c
+ARM/HAL_CA9.o: .\rt_TypeDef.h
+ARM/HAL_CA9.o: .\RTX_Config.h
+ARM/HAL_CA9.o: .\rt_System.h
+ARM/HAL_CA9.o: .\rt_Task.h
+ARM/HAL_CA9.o: .\rt_List.h
+ARM/HAL_CA9.o: .\rt_MemBox.h
+ARM/HAL_CA9.o: .\rt_HAL_CA.h
+ARM/HAL_CA9.o: ../../../Include/core_ca9.h
+ARM/HAL_CA9.o: C:\altera\16.0\embedded\ds-5\sw\ARMCompiler5.06u1\bin\..\include\stdint.h
+ARM/HAL_CA9.o: ../../../Include/core_caInstr.h
+ARM/HAL_CA9.o: ../../../Include/core_cmInstr.h
+ARM/HAL_CA9.o: ../../../Include/core_caFunc.h
+ARM/HAL_CA9.o: ../../../Include/core_ca_mmu.h
+ARM/HAL_CA9.o: ../../../Include/core_cm4_simd.h

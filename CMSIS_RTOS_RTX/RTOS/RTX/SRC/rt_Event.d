@@ -1,0 +1,15 @@
+rt_Event.o: rt_Event.c
+rt_Event.o: rt_TypeDef.h
+rt_Event.o: RTX_Config.h
+rt_Event.o: rt_System.h
+rt_Event.o: rt_Event.h
+rt_Event.o: rt_List.h
+rt_Event.o: rt_Task.h
+rt_Event.o: rt_HAL_CA.h
+rt_Event.o: ../../../Include/core_ca9.h
+rt_Event.o: C:\altera\16.0\embedded\ds-5\sw\ARMCompiler5.06u1\bin\..\include\stdint.h
+rt_Event.o: ../../../Include/core_caInstr.h
+rt_Event.o: ../../../Include/core_cmInstr.h
+rt_Event.o: ../../../Include/core_caFunc.h
+rt_Event.o: ../../../Include/core_ca_mmu.h
+rt_Event.o: ../../../Include/core_cm4_simd.h

@@ -1,0 +1,11 @@
+HAL_CA.o: HAL_CA.c
+HAL_CA.o: rt_TypeDef.h
+HAL_CA.o: RTX_Config.h
+HAL_CA.o: rt_HAL_CA.h
+HAL_CA.o: ../../../Include/core_ca9.h
+HAL_CA.o: C:\altera\16.0\embedded\ds-5\sw\ARMCompiler5.06u1\bin\..\include\stdint.h
+HAL_CA.o: ../../../Include/core_caInstr.h
+HAL_CA.o: ../../../Include/core_cmInstr.h
+HAL_CA.o: ../../../Include/core_caFunc.h
+HAL_CA.o: ../../../Include/core_ca_mmu.h
+HAL_CA.o: ../../../Include/core_cm4_simd.h
