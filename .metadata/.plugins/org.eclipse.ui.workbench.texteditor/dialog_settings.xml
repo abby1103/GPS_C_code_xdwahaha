@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item value="313" key="DIALOG_WIDTH"/>
-		<item value="226" key="DIALOG_Y_ORIGIN"/>
-		<item value="1485" key="DIALOG_X_ORIGIN"/>
+		<item value="314" key="DIALOG_WIDTH"/>
+		<item value="405" key="DIALOG_Y_ORIGIN"/>
+		<item value="1481" key="DIALOG_X_ORIGIN"/>
 		<item value="432" key="DIALOG_HEIGHT"/>
 		<item value="1|Microsoft JhengHei UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft JhengHei UI" key="DIALOG_FONT_NAME"/>
 	</section>
@@ -13,16 +13,16 @@
 		<item value="false" key="isRegEx"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="printf" key="selection"/>
+		<item value="stacksz" key="selection"/>
 		<list key="findhistory">
-			<item value="printf"/>
-			<item value="pi"/>
-			<item value="l1"/>
-			<item value="flag"/>
-			<item value="output_arr"/>
-			<item value="epoch"/>
-			<item value="TRACKING_ENUM"/>
-			<item value="LOCK_THRESHOLD"/>
+			<item value="stacksz"/>
+			<item value="cand_b2"/>
+			<item value="inverse_nXn"/>
+			<item value="error"/>
+			<item value="svcThreadGetId"/>
+			<item value="pass"/>
+			<item value="initialize_tracking"/>
+			<item value="P_TCB"/>
 		</list>
 		<list key="replacehistory">
 		</list>
