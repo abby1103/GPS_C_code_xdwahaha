@@ -1,0 +1,20 @@
+/*
+ * ddcp_attitude.h
+ *
+ *  Created on: 2020/4/28
+ *      Author: me249
+ */
+
+#ifndef DDCP_ATTITUDE_H_
+#define DDCP_ATTITUDE_H_
+
+void attitude_thread(void const *argument);
+
+//******************************************************************************//
+// Globals
+//******************************************************************************//
+
+extern double angle_ddcp[3];
+extern int ddcp_debug = 0;
+
+#endif /* DDCP_ATTITUDE_H_ */
